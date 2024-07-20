@@ -15,5 +15,4 @@ Features :
 
 a) Created Tets cases in test-3.spec.ts file under test folder. 
 b) Inside test-3.spec.ts; There are two test cases one is for UI and API testing.
-c) Created Page Object Model under pages so that data should be reuable and Enhanced scalability.
-d) Integrated with allure reports and integrated Screenshots.
+c) Integrated with allure reports with Screenshots and Videos.
