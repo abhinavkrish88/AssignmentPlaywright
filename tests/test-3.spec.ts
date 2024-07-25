@@ -1,7 +1,18 @@
 import { test, expect } from '@playwright/test';
 import { allure } from 'allure-playwright';
+//import { Page } from "@playwright/test";
+import login   from "../pages/login"; 
+import  test1  from "../testdata/test1.json"
 
+//const data1 = new test1();
 
+test('testing', async ({ page }) => {
+  const Login = new login(page);
+
+   await Login.clickOnSpecialHotMenu();
+   await console.log(test1.forbidOnly);
+
+});
 
 test('Amazon Iphone and Apple Watch Search', async ({ page, context }) => {
 
